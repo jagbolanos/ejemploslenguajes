@@ -1,0 +1,2 @@
+
+void imprimir(int n);
