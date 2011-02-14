@@ -100,14 +100,14 @@ int main() {
 	
 	matriz4 = new int*[ROWS];
 	for(i = 0; i < ROWS; i++) {
-	    matriz4[i] = new int[COLUMNS];
+	    matriz4[i] = new int[COLUMNS+i];
 	}
 		
 		
 
     printf("matriz4: %X %X\n", matriz4, &matriz4);
 	for (i = 0; i < ROWS; i++) {
-		for (j = 0; j < COLUMNS; j++) {		
+		for (j = 0; j < COLUMNS +i; j++) {		
 			printf("%X ", &(matriz4[i][j]));
 			//printf("%d ", matriz1[i][j]);
 		}
