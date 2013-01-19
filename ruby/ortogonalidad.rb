@@ -13,8 +13,6 @@ w = for x in (5..13) do puts x end
 
 puts w
 
-l = def f2(x) return x*x end
+l = lambda {|x| x * x}
 
-puts l
-
-l(23)
+puts l.call(12)
