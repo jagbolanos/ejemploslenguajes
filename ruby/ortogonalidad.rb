@@ -13,6 +13,10 @@ w = for x in (5..13) do puts x end
 
 puts w
 
+w = 99
+
+puts w
+
 l = lambda {|x| x * x}
 
 puts l.call(12)

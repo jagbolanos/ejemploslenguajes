@@ -42,7 +42,11 @@ int main() {
 	for(i = 0; i < LENGTH; i++) {
 		printf("%c ", arreglo2[i]);
 	}
-
+	printf("\n");	
+	for(i = 0; i < LENGTH; i++) {
+		printf("%c ", i[arreglo2]);
+	}
+	printf("\n");
 
 	for(i = 0; i < LENGTH; i++) {
 		*(arreglo1+i) =  i * i;
@@ -80,8 +84,8 @@ int main() {
 	int j;
 	for (i = 0; i < ROWS; i++) {
 		for (j = 0; j < COLUMNS; j++) {		
-			printf("%X ", &(matriz1[i][j]));
-			//printf("%d ", matriz1[i][j]);
+			//printf("%X ", &(matriz1[i][j]));
+			printf("%d ", matriz1[i][j]);
 		}
 		printf("\n");
 	}

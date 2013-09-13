@@ -5,3 +5,4 @@
 *.ii
 a.out
 *.class
+.DS_Store

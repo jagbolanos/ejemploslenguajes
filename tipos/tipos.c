@@ -5,12 +5,12 @@
 #define COLUMNS 4
 
 typedef struct {
-	int atributo1; //4
-	float atributo2; //4
-	char atributo3; //1
-	short atributo4; //2
+	int atributo1;
+	float atributo2;
+	char atributo3;
+	short atributo4; 
 
-} registro1; //11
+} registro1;
 
 typedef struct {
 	int atributo1;
@@ -25,14 +25,13 @@ int main() {
 
 	int arreglo1[LENGTH];
 	char arreglo2[LENGTH];
-	int matriz1[ROWS][COLUMNS];
-	char matriz2[ROWS][COLUMNS];
+	registro1 matriz1[ROWS][COLUMNS];
+	registro2 matriz2[ROWS][COLUMNS];
 
 	printf("sizeof(char): %d\n",sizeof(char));
 	printf("sizeof(short): %d\n",sizeof(short));
 	printf("sizeof(int): %d\n",sizeof(int));
 	printf("sizeof(long): %d\n",sizeof(long));
-	printf("sizeof(long long): %d\n",sizeof(long long));
 	printf("sizeof(float): %d\n",sizeof(float));
 	printf("sizeof(double): %d\n",sizeof(double));
 

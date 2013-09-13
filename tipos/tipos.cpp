@@ -5,12 +5,12 @@
 #define COLUMNS 4
 
 typedef struct {
-	int atributo1; //4
-	float atributo2; //4
-	char atributo3; //1
-	short atributo4; //2
+	int atributo1;
+	float atributo2;
+	char atributo3;
+	short atributo4;
 
-} registro1; //11
+} registro1;
 
 typedef struct {
 	int atributo1;
